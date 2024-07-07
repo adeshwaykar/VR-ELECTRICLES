@@ -1,0 +1,85 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+nav{
+    background-color: black;
+}
+.navbar-brand img {
+    width: auto;
+    max-height: 30px;
+}
+.navbar-toggler{
+    border-color: white; /* Change the border color to white */
+}
+.navbar-toggler-icon {
+    background-image: url('data:image/svg+xml;charset=utf8,%3Csvg viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath stroke="rgba%28255, 255, 255, 1%29" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M4 7h22M4 15h22M4 23h22"/%3E%3C/svg%3E');
+    /* Use a white icon */
+}
+
+
+.hero {
+    background: url('https://img.pikbest.com/backgrounds/20200214/vector-abstract-background-technology-electronic-circuit-design--v_1653130jpg!bw700') no-repeat center center/cover;
+    color: white;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    font-weight: lighter;
+}
+
+section {
+    padding: 4rem 0;
+}
+
+section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+}
+
+footer p {
+    margin: 0.5rem 0;
+}
+.heading-container {
+    display: flex;
+    justify-content: center;
+}
+.heading {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #040005; /* Adjust this color to match your branding */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+    background: linear-gradient(45deg, #141414, #4f424a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid #272328; /* Add a bottom border */
+    display: inline-block; /* Make the border fit the text */
+}
+
+
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2rem;
+    }
+    .hero p {
+        font-size: 1rem;
+    }
+    section h2 {
+        font-size: 2rem;
+    }
+}
